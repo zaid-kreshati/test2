@@ -1,0 +1,917 @@
+.header .nav2 a {
+    color: black; /* Black color for the "Logout" link */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+
+
+
+.full-screen {
+    height: 100vh; /* Full height of viewport */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* Optional background color */
+}
+.full-screen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+}
+
+
+
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('/PsotBlug/logo-color.png' ), url( '/PsotBlug/BeeOrder_logo.png' );
+    background-size: cover, contain; /* Main image covers, pattern can repeat */
+    background-position: center, center;
+    background-repeat: no-repeat, repeat; /* Pattern repeats */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Ensures the background is behind any content */
+}
+
+
+
+
+
+
+
+
+.text-danger {
+    color: red;
+    font-size: 12px;
+}
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fbc2eb;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1))
+    }
+
+    .form-control {
+        width: 100%; /* Make the input take the full width of its container */
+        border: 1px solid #ddd; /* Light grey border */
+        border-radius: 6px; /* Rounded corners */
+        padding: 5px; /* Padding for the input field */
+        box-sizing: border-box; /* Include padding and border in the element's total width */
+    }
+
+
+    .schedule-item {
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+
+    .center {
+        justify-items: center;
+    }
+
+    .board {
+box-shadow:  0px 4px 10px #212529;
+background-color: whitesmoke;
+width: 870px;
+
+    }
+
+    .photos{
+        margin-bottom: 10px;
+        justify-self: center;
+    }
+
+    .button-group{
+        text-align-last: justify;
+    }
+
+
+    body, html {
+
+        font-family: Arial, sans-serif;
+        background-color: #ffffff; /* White background */
+
+    }
+
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 50px;
+        background-color: #ffffff; /* White background */
+        box-shadow: -5px 2px 8px 1px #37517e; /* Shadow effect */
+        border-bottom: 1px solid #ddd;
+    }
+
+    .header .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .header .logo img {
+        height: 50px; /* Adjust as needed */
+        border-radius: 50%; /* Circular logo */
+    }
+
+
+
+    .header .nav {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .header .nav a {
+        color: #000000; /* Black color for the "Logout" link */
+        text-decoration: none;
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    .header .nav a:hover {
+        text-decoration: underline; /* Underline on hover */
+    }
+
+    .container {
+        text-align: center;
+        padding: 100px ;
+        width: 100vh;
+        object-fit: cover; /* Ensures the image covers the container without distortion */
+        height: 100vh; /* Full viewport height */
+        max-width: 150%;
+
+
+    }
+
+
+
+    .welcome {
+        padding: 300px ;
+        display: grid;
+        justify-items: center;
+        margin-bottom: 20px
+
+    }
+
+    .welcome .btn {
+        padding: 10px 120px;
+        background-color: rgb(0, 0, 0);
+        color: #ffffff;
+        border-radius: 30px;
+        font-size: 25px;
+
+
+    }
+
+    p {
+        margin-bottom: 20px; /* Adjust this value for more or less space */
+    }
+
+
+
+
+   .content .btn {
+        padding: 10px 120px;
+        font-size: 18px;
+        background-color: rgb(247, 219, 6);
+        color: #000000;
+        border-radius: 10px;
+        border: none;
+        margin-inline: 90px;
+        font-size: 25px;
+
+
+    }
+
+
+    .content .btn2 {
+
+        display: block;
+        color: #000000;
+        margin: 10px;
+        font-size: 20px;
+
+
+    }
+
+    .btn3 {
+
+        padding: 15px 120px;
+        font-size: 18px;
+        background-color: rgb(84, 38, 129);
+        color: #ffffff;
+        border-radius: 10px;
+        border: none;
+        margin-inline: 90px;
+        font-size: 25px;
+
+
+}
+
+
+    .content {
+        position: relative;
+        z-index: 2; /* Bring content to the front */
+        color: white;
+        text-align: center;
+        margin-top: 35%;
+        display: table-column;
+
+
+
+    }
+
+
+
+
+
+
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .form-group input:focus {
+        outline: none;
+        border-color: #666;
+    }
+
+    .form-check {
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    .form-check input {
+        margin-right: 10px;
+    }
+
+    .form-check label {
+        font-size: 14px;
+        color: #333;
+    }
+
+    .btn-submit {
+        width: 100%;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .btn-submit:hover {
+        background-color: #555;
+    }
+
+
+
+    .btn4{
+color: #ffffff;
+background: #47b2e4;
+font-family: "Jost",  sans-serif;
+font-weight: 500;
+font-size: 15px;
+letter-spacing: 1px;
+display: inline-block;
+padding: 10px 28px 12px 28px;
+border-radius: 50px;
+transition: 0.5s;
+}
+
+
+.card{
+    justify-self:center ;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px; /* Adjust this value to move the card down */
+}
+
+
+.card-header2 {
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+    background-color: #3269bc;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+.card-header2 h3{
+    text-align: center;
+}
+.card-body2{
+    padding: 1rem;
+display: flow-root;
+
+}
+.center{
+    justify-content: center;
+    justify-self: center;
+    width: 200%;
+    display: flex;
+}
+.filter-btn{
+    background-color: gray;
+    width: 870px;
+    margin-left: -138px;
+
+
+}
+
+.profile_image{
+    position: relative;
+}
+
+.username{
+    position: absolute;
+    left: 60px;
+    top: 0px;
+    font-size: 25px;
+}
+
+.uploadSpinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.post-filters{
+    display: flex;
+    justify-content: center;
+}
+.carousel-item img, .carousel-item video {
+    max-height: 500px; /* Adjust the height as needed */
+    object-fit: contain; /* Crop the image or video to fit */
+}
+
+.icon{
+    width: 40px;
+    height: 28px;
+    margin-left: 140px;
+    margin-top: 30px;
+    border-radius: 100px;
+    cursor: pointer;
+    position: relative;
+    left: -12px;
+    top: -32px;
+}
+
+.icon2{
+    width: 40px;
+    height: 28px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 810px;
+    margin-top: -28px;
+    position: relative;
+
+}
+/* Description Styles */
+.description {
+    padding-top: 15px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.descriptions-list {
+    list-style-type: disc; /* Adds bullet points */
+    padding-left: 20px; /* Indentation for bullets */
+    margin: 0;
+}
+
+.descriptions-list p {
+    margin: 5px 0;
+    text-align: left;
+    display: list-item; /* Makes each paragraph a list item */
+}
+
+.manage-desc-btn {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.manage-desc-btn:hover {
+    background-color: #0056b3;
+}
+
+.description-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.description-actions {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+}
+
+.description-item:hover .description-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.btn-edit-description,
+.btn-delete-description {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-edit-description {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-delete-description {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 8px;
+}
+
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+#addDescriptionForm {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+/* .descriptions-list {
+    max-height: 300px;
+    overflow-y: auto;
+} */
+
+.modal-footer {
+    border-top: 1px solid #dee2e6;
+    padding: 1rem;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+#saveDescriptionChanges {
+    background-color: #28a745;
+    color: white;
+}
+
+#saveDescriptionChanges:hover {
+    background-color: #218838;
+}
+
+.btn-post{
+    background-color: #000000;
+    color: #ffffff;
+    border-color: gray;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+#loading-spinner {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.image-container img{
+    width: 500px;
+    height: 300px;
+}
+
+.main-content{
+    justify-items: center;
+
+}
+
+.search-container {
+    display: flex;
+    align-items: center; /* Align items vertically center */
+    margin-bottom: 15px;
+    position: relative; /* To ensure the suggestions are positioned correctly */
+    width: 200px; /* Adjust the width according to your needs */
+}
+
+.search-container img {
+    position: absolute;
+    right: 10px; /* Adjust as needed */
+    width: 25px; /* Adjust the size of the icon */
+    height: 25px; /* Adjust the size of the icon */
+    pointer-events: none; /* Ensure the icon does not interfere with input */
+}
+
+.category-container{
+    justify-items: center;
+    margin-top: 100px;
+}
+
+.category{
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+}
+
+
+
+
+.table-container{
+    width: 300%;
+}
+.table-container thead{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.table-container tbody{
+    background-color: #ffffff;
+}
+
+.table-container tbody tr{
+    border-bottom: 1px solid #000000;
+}
+
+.table-container tbody td{
+    padding: 10px;
+}
+.table-container th{
+    padding: 10px;
+}
+
+.table-container{
+    margin-top: 10px;
+}
+.table-container thead{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+
+
+table {
+    --bs-table-striped-bg: var(--bs-gray-100);
+    margin-bottom: 0;
+}
+
+.table th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+    padding: 1rem;
+}
+.category-table-header{
+    background-color: #000000;
+    color: #ffffff;
+}
+.category-table-header th{
+    color: #ffffff;
+}
+.category-table-header td{
+    color: #000000;
+}
+.category-table-header tr{
+    border-bottom: 1px solid #000000;
+}
+
+.table td {
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+
+
+/* Form Controls */
+.form-control {
+    border-radius: 6px;
+    border: 1px solid #dee2e6;
+    padding: 0.5rem 0.75rem;
+    transition: border-color 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.form-control-color {
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+/* Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 6px;
+    transition: all 0.15s ease-in-out;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+}
+
+/* Card */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+/* Hover Effects */
+.table-hover tbody tr:hover {
+    background-color: rgba(13, 110, 253, 0.05);
+}
+
+/* Empty State */
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .table-responsive {
+        border-radius: 10px;
+    }
+
+    .btn {
+        padding: 0.375rem;
+    }
+
+    .color-square {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.table tbody tr {
+    animation: fadeIn 0.3s ease-out forwards;
+}
+
+.tag{
+    color: #555555;                  /* Dark gray text color */
+    font-size: 0.8rem;               /* Small font size */
+    padding: 4px 8px;                /* Padding around the text */
+    border-radius: 4px;              /* Rounded corners */
+    position: relative;              /* Absolute positioning */
+    top: -100px;                       /* Adjust the vertical position */
+    left: 360px;
+
+
+}
+
+
+.comments-section {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.comment {
+    height: 100px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.comment-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.comment-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+    object-fit: cover;
+}
+
+.comment-info {
+    flex-grow: 1;
+}
+
+.comment-author {
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.comment-date {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.comment-content {
+    color: #444;
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
+.comment-actions {
+
+        /* display: table-cell; */
+        position: absolute;
+        margin-top: -50px;
+        right: 150px;
+
+
+}
+
+.comment-btn {
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.comment-btn:hover {
+    color: #1a73e8;
+}
+
+.reply-btn {
+    color: #1a73e8;
+    font-weight: 500;
+}
+
+.reply-btn:hover {
+    text-decoration: underline;
+}
+
+/* Nested comments */
+.comment-replies {
+    margin-left: 50px;
+    margin-top: 15px;
+    border-left: 2px solid #e1e4e8;
+    padding-left: 15px;
+}
+
+/* Comment form */
+.comment-form {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.comment-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+    min-height: 80px;
+}
+
+.comment-submit {
+    background: #1a73e8;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s ease;
+}
+
+.comment-submit:hover {
+    background: #1557b0;
+}
+
+/* Like/Dislike buttons */
+.like-btn, .dislike-btn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.like-btn i, .dislike-btn i {
+    font-size: 14px;
+}
+
+/* Loading state */
+.comment-loading {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
